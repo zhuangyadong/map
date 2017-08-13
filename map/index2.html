@@ -19,7 +19,6 @@
     var x = 116.4163340000;
     var y = 40.0018680000;
     var ggPoint = new BMap.Point(x,y);
-
     //地图初始化
     var bm = new BMap.Map("allmap");
 
@@ -29,7 +28,6 @@
     //添加谷歌marker和label
     var markergg = new BMap.Marker(ggPoint);
     bm.addOverlay(markergg); //添加谷歌marker
-
 //    markergg.setLabel(labelgg); //添加谷歌label
 
     //坐标转换完之后的回调函数
