@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="gr__127_0_0_1" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="./仅展示驶过线_files/style1504670922595.css"><style type="text/css">.amap-indoor-map .label-canvas{position:absolute;top:0;left:0}.amap-indoor-map .highlight-image-con *{pointer-events:none}.amap-indoormap-floorbar-control{position:absolute;margin:auto 0;bottom:165px;right:12px;width:35px;text-align:center;line-height:1.3em;overflow:hidden;padding:0 2px}.amap-indoormap-floorbar-control .panel-box{background-color:rgba(255,255,255,.9);border-radius:3px;border:1px solid #ccc}.amap-indoormap-floorbar-control .select-dock{position:absolute;top:0;left:0;width:100%;box-sizing:border-box;height:30px;border:solid #4196ff;border-width:0 2px;border-radius:2px;pointer-events:none;background:linear-gradient(to bottom,#f6f8f9 0,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%)}.amap-indoor-map .transition{transition:opacity .2s},.amap-indoormap-floorbar-control .transition{transition:top .2s,margin-top .2s}.amap-indoormap-floorbar-control .select-dock:after,.amap-indoormap-floorbar-control .select-dock:before{content:"";position:absolute;width:0;height:0;left:0;top:10px;border:solid transparent;border-width:4px;border-left-color:#4196ff}.amap-indoormap-floorbar-control .select-dock:after{right:0;left:auto;border-left-color:transparent;border-right-color:#4196ff}.amap-indoormap-floorbar-control.is-mobile{width:37px}.amap-indoormap-floorbar-control.is-mobile .floor-btn{height:35px;line-height:35px}.amap-indoormap-floorbar-control.is-mobile .select-dock{height:35px;top:36px}.amap-indoormap-floorbar-control.is-mobile .select-dock:after,.amap-indoormap-floorbar-control.is-mobile .select-dock:before{top:13px}.amap-indoormap-floorbar-control.is-mobile .floor-list-box{height:105px}.amap-indoormap-floorbar-control .floor-list-item .floor-btn{color:#555;font-family:"Times New Roman",sans-serif,"Microsoft Yahei";font-size:16px}.amap-indoormap-floorbar-control .floor-list-item.selected .floor-btn{color:#000}.amap-indoormap-floorbar-control .floor-btn{height:28px;line-height:28px;overflow:hidden;cursor:pointer;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.amap-indoormap-floorbar-control .floor-btn:hover{background-color:rgba(221,221,221,.4)}.amap-indoormap-floorbar-control .floor-minus,.amap-indoormap-floorbar-control .floor-plus{position:relative;text-indent:-1000em}.amap-indoormap-floorbar-control .floor-minus:after,.amap-indoormap-floorbar-control .floor-plus:after{content:"";position:absolute;margin:auto;top:9px;left:0;right:0;width:0;height:0;border:solid transparent;border-width:10px 8px;border-top-color:#777}.amap-indoormap-floorbar-control .floor-minus.disabled,.amap-indoormap-floorbar-control .floor-plus.disabled{opacity:.3}.amap-indoormap-floorbar-control .floor-plus:after{border-bottom-color:#777;border-top-color:transparent;top:-3px}.amap-indoormap-floorbar-control .floor-list-box{max-height:153px;position:relative;overflow-y:hidden}.amap-indoormap-floorbar-control .floor-list{margin:0;padding:0;list-style:none}.amap-indoormap-floorbar-control .floor-list-item{position:relative}.amap-indoormap-floorbar-control .floor-btn.disabled,.amap-indoormap-floorbar-control .floor-btn.disabled *,.amap-indoormap-floorbar-control.with-indrm-loader *{-webkit-pointer-events:none!important;pointer-events:none!important}.amap-indoormap-floorbar-control .with-indrm-loader .floor-nonas{opacity:.5}.amap-indoor-map-moverf-marker{color:#555;background-color:#FFFEEF;border:1px solid #7E7E7E;padding:3px 6px;font-size:12px;white-space:nowrap;display:inline-block;position:absolute;top:1em;left:1.2em}.amap-indoormap-floorbar-control .amap-indrm-loader{-moz-animation:amap-indrm-loader 1250ms infinite linear;-webkit-animation:amap-indrm-loader 1250ms infinite linear;animation:amap-indrm-loader 1250ms infinite linear;border:2px solid #91A3D8;border-right-color:transparent;box-sizing:border-box;display:inline-block;overflow:hidden;text-indent:-9999px;width:13px;height:13px;border-radius:7px;position:absolute;margin:auto;top:0;left:0;right:0;bottom:0}@-moz-keyframes amap-indrm-loader{0%{-moz-transform:rotate(0deg);transform:rotate(0deg)}100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes amap-indrm-loader{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes amap-indrm-loader{0%{-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}</style>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="amap-ui-1.0.11" data-requiremodule="ui/misc/PathSimplifier" src="./仅展示驶过线_files/PathSimplifier.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="amap-ui-1.0.11" data-requiremodule="http://webapi.amap.com/count?type=UIInit&amp;k=%E6%82%A8%E7%94%B3%E8%AF%B7%E7%9A%84key%E5%80%BC" src="./仅展示驶过线_files/count"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="amap-ui-1.0.11" data-requiremodule="jquery" src="./仅展示驶过线_files/jquery-1.12.4.min.js.下载"></script><!--<base href="//webapi.amap.com/ui/1.0/ui/misc/PathSimplifier/examples/">--><base href=".">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>仅展示驶过线</title>
+    <style>
+    html,
+    body,
+    #container {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    #loadingTip {
+        position: absolute;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        padding: 3px 10px;
+        background: red;
+        color: #fff;
+        font-size: 14px;
+    }
+    </style>
+<style type="text/css">.amap-container{cursor:url(http://webapi.amap.com/theme/v1.3/openhand.cur),default;}.amap-drag{cursor:url(http://webapi.amap.com/theme/v1.3/closedhand.cur),default;}</style><style type="text/css" abt="234"></style><script>//console.log('a')
+</script><script>doAdblock();
+function doAdblock(){
+    (function() {
+        function A() {}
+        A.prototype = {
+            rules: {
+                'pps_pps': {
+                    'find': /^http:\/\/www\.iqiyi\.com\/player\/cupid\/common\/pps_flvplay_s\.swf/,
+                    'replace': 'http://swf.adtchrome.com/pps_20140420.swf'
+                },
+                '17173_in':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFile(Customer)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_in_20150522.swf"
+                },
+                '17173_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFileFirstpage\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_out_20150522.swf"
+                },
+                '17173_live':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream(_firstpage)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_stream_20150522.swf"
+                },
+                '17173_live_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream_(custom)?Out\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173.out.Live.swf"
+                }
+            },
+            _done: null,
+            get done() {
+                if(!this._done) {
+                    this._done = new Array();
+                }
+                return this._done;
+            },
+            addAnimations: function() {
+                var style = document.createElement('style');
+                style.type = 'text/css';
+                style.innerHTML = 'object,embed{\
+                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+                -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+                animation-duration:.001s;animation-name:playerInserted;}\
+                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';
+                document.getElementsByTagName('head')[0].appendChild(style);
+            },
+            animationsHandler: function(e) {
+                if(e.animationName === 'playerInserted') {
+                    this.replace(e.target);
+                }
+            },
+            replace: function(elem) {
+                if (/http:\/\/v.youku.com\/v_show\/.*/.test(window.location.href)){
+                    var tag = document.getElementById("playerBox").getAttribute("player")
+                    if (tag == "adt"){
+                        console.log("adt adv")
+                        return;
+                    }
+                }
+                if(this.done.indexOf(elem) != -1) return;
+                this.done.push(elem);
+                var player = elem.data || elem.src;
+                if(!player) return;
+                var i, find, replace = false;
+                for(i in this.rules) {
+                    find = this.rules[i]['find'];
+                    if(find.test(player)) {
+                        replace = this.rules[i]['replace'];
+                        if('function' === typeof this.rules[i]['preHandle']) {
+                            this.rules[i]['preHandle'].bind(this, elem, find, replace, player)();
+                        }else{
+                            this.reallyReplace.bind(this, elem, find, replace)();
+                        }
+                        break;
+                    }
+                }
+            },
+            reallyReplace: function(elem, find, replace) {
+                elem.data && (elem.data = elem.data.replace(find, replace)) || elem.src && ((elem.src = elem.src.replace(find, replace)) && (elem.style.display = 'block'));
+                var b = elem.querySelector("param[name='movie']");
+                this.reloadPlugin(elem);
+            },
+            reloadPlugin: function(elem) {
+                var nextSibling = elem.nextSibling;
+                var parentNode = elem.parentNode;
+                parentNode.removeChild(elem);
+                var newElem = elem.cloneNode(true);
+                this.done.push(newElem);
+                if(nextSibling) {
+                    parentNode.insertBefore(newElem, nextSibling);
+                } else {
+                    parentNode.appendChild(newElem);
+                }
+            },
+//          init: function() {
+//              var handler = this.animationsHandler.bind(this);
+//              document.body.addEventListener('webkitAnimationStart', handler, false);
+//              document.body.addEventListener('msAnimationStart', handler, false);
+//              document.body.addEventListener('oAnimationStart', handler, false);
+//              document.body.addEventListener('animationstart', handler, false);
+//              this.addAnimations();
+//          }
+        };
+//      new A().init();
+    })();
+}
+// 20140730
+(function cnbeta() {
+    if (document.URL.indexOf('cnbeta.com') >= 0) {
+        var elms = document.body.querySelectorAll("p>embed");
+        Array.prototype.forEach.call(elms, function(elm) {
+            elm.style.marginLeft = "0px";
+        });
+    }
+})();
+//baidu
+if(document.URL.indexOf('www.baidu.com') >= 0){
+    if(document && document.getElementsByTagName && document.getElementById && document.body){
+        var aa = function(){
+            var all = document.body.querySelectorAll("#content_left div,#content_left table");
+            for(var i = 0; i < all.length; i++){
+                if(/display:\s?(table|block)\s!important/.test(all[i].getAttribute("style"))){all[i].style.display= "none";all[i].style.visibility='hidden';}
+            }
+            all = document.body.querySelectorAll('.result.c-container[id="1"]');
+            //if(all.length == 1) return;
+            for(var i = 0; i < all.length; i++){
+                if(all[i].innerHTML && all[i].innerHTML.indexOf('广告')>-1){
+                    all[i].style.display= "none";all[i].style.visibility='hidden';
+                }
+            }
+        }
+        aa();
+        document.getElementById('wrapper_wrapper').addEventListener('DOMSubtreeModified',aa)
+    };
+}
+// 20140922
+(function kill_360() {
+    if (document.URL.indexOf('so.com') >= 0) {
+        document.getElementById("e_idea_pp").style.display = none;
+    }
+})();
+if (document.URL.indexOf("tv.sohu.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+if (document.URL.indexOf("56.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+if (document.URL.indexOf("iqiyi.com") >= 0){
+    if (document.cookie.indexOf("player_forcedType=h5_VOD")==-1){
+        document.cookie='player_forcedType=h5_VOD'
+        if(localStorage.reloadTime && Date.now() - parseInt(localStorage.reloadTime)<60000){
+            console.log('no reload')
+        }else{
+            location.reload()
+            localStorage.reloadTime = Date.now();
+        }
+    }
+}
+</script><style type="text/css">object,embed{                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;                -o-animation-duration:.001s;-o-animation-name:playerInserted;                animation-duration:.001s;animation-name:playerInserted;}                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style><style type="text/css">.amap-ui-pathsimplifier-container{cursor:default;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0) scale(1,1)}.amap-ui-pathsimplifier-container canvas{position:absolute}.amap-ui-pathsimplifier-container .amap-ui-hide{display:none!important}.amap-ui-pathsimplifier-container .overlay-title{color:#555;background-color:#fffeef;border:1px solid #7e7e7e;padding:2px 6px;font-size:12px;white-space:nowrap;display:inline-block;position:absolute;border-radius:2px;z-index:99999}.amap-ui-pathsimplifier-container .overlay-title:after,.amap-ui-pathsimplifier-container .overlay-title:before{content:'';display:block;position:absolute;margin:auto;width:0;height:0;border:solid transparent;border-width:5px}.amap-ui-pathsimplifier-container .overlay-title.left{transform:translate(10px,-50%)}.amap-ui-pathsimplifier-container .overlay-title.left:before{top:5px}.amap-ui-pathsimplifier-container .overlay-title.left:after{left:-9px;top:5px;border-right-color:#fffeef}.amap-ui-pathsimplifier-container .overlay-title.left:before{left:-10px;border-right-color:#7e7e7e}.amap-ui-pathsimplifier-container .overlay-title.top{transform:translate(-50%,-130%)}.amap-ui-pathsimplifier-container .overlay-title.top:before{left:0;right:0}.amap-ui-pathsimplifier-container .overlay-title.top:after{bottom:-9px;left:0;right:0;border-top-color:#fffeef}.amap-ui-pathsimplifier-container .overlay-title.top:before{bottom:-10px;border-top-color:#7e7e7e}</style></head>
+
+<body data-gr-c-s-loaded="true">
+    <div id="container" class="amap-container" style="position: relative; background: rgb(252, 249, 242); cursor: default;"><object style="display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;" type="text/html" data="./仅展示驶过线_files/saved_resource.html"></object><div class="amap-maps"><div class="amap-drags" style=""><div class="amap-layers" style="transform: translateZ(0px);"><div class="amap-markers" style="position: absolute; z-index: 120; top: 500px; left: 1066px;"></div><canvas class="amap-layer" width="2133" height="1000" style="position: absolute; z-index: 0; top: 0px; left: 0px; height: 1000px; width: 2133px;"></canvas><div class="amap-e" style="z-index: 100; opacity: 1;"><div class="amap-custom amap-ui-pathsimplifier-container"><canvas class="base-canvas" width="2133" height="1000" style="width: 2133px; height: 1000px;"></canvas><canvas class="naviline-canvas" width="2133" height="1000" style="width: 2133px; height: 1000px;"></canvas><div class="overlay-container amap-ui-hide"><canvas class="overlay-canvas" width="2133" height="1000" style="width: 2133px; height: 1000px;"></canvas><div class="overlay-title left  amap-ui-hide"></div></div><canvas class="navipoint-canvas" width="2133" height="1000" style="width: 2133px; height: 1000px;"></canvas></div></div><canvas class="amap-labels" draggable="false" width="2133" height="1000" style="position: absolute; z-index: 99; height: 1000px; width: 2133px; top: 0px; left: 0px;"></canvas></div><div class="amap-overlays" style=""></div></div></div><div style="display: none;"></div><div class="amap-controls"></div><a class="amap-logo" href="http://gaode.com/" target="_blank" style="display: block;"><img src="./仅展示驶过线_files/autonavi.png"></a><div class="amap-copyright" style="display: none; visibility: visible;"><!--v1.4.0--> © 2017 AutoNavi <span class="amap-mcode">- GS(2016)710号</span></div></div>
+    <script type="text/javascript" src="./仅展示驶过线_files/maps"></script>
+    <!-- UI组件库 1.0 -->
+    <script src="./仅展示驶过线_files/main.js.下载"></script>
+    <script type="text/javascript">
+    //创建地图
+    var map = new AMap.Map('container', {
+        zoom: 4
+    });
+
+    AMapUI.load(['ui/misc/PathSimplifier', 'lib/$'], function(PathSimplifier, $) {
+
+        if (!PathSimplifier.supportCanvas) {
+            alert('当前环境不支持 Canvas！');
+            return;
+        }
+
+        var emptyLineStyle = {
+            lineWidth: 0,
+            fillStyle: null,
+            strokeStyle: null,
+            borderStyle: null
+        };
+
+        var pathSimplifierIns = new PathSimplifier({
+            zIndex: 100,
+            //autoSetFitView:false,
+            map: map, //所属的地图实例
+
+            getPath: function(pathData, pathIndex) {
+
+                return pathData.path;
+            },
+            getHoverTitle: function(pathData, pathIndex, pointIndex) {
+
+                return null;
+            },
+            renderOptions: {
+                //将点、线相关的style全部置emptyLineStyle
+                pathLineStyle: emptyLineStyle,
+                pathLineSelectedStyle: emptyLineStyle,
+                pathLineHoverStyle: emptyLineStyle,
+                keyPointStyle: emptyLineStyle,
+                startPointStyle: emptyLineStyle,
+                endPointStyle: emptyLineStyle,
+                keyPointHoverStyle: emptyLineStyle,
+                keyPointOnSelectedPathLineStyle: emptyLineStyle
+            }
+        });
+
+        window.pathSimplifierIns = pathSimplifierIns;
+
+        pathSimplifierIns.setData([{
+            name: '测试',
+            path: [
+                [116.41, 39.90],
+                [113.96, 40.55],
+                [111.48, 31.14],
+                [108.95, 35.67],
+                [106.38, 38.15],
+                [103.77, 38.57],
+                [101.14, 38.93],
+                [98.47, 40.23],
+                [95.78, 40.47],
+                [93.07, 40.64],
+                [84.35, 42.75],
+                [88.45, 43.55],
+                [89.45, 42.45],
+                [80.35, 43.35],
+                [92.15, 41.45],
+                [87.62, 40.79]
+            ]
+        }]);
+
+        //initRoutesContainer(d);
+
+        function onload() {
+            pathSimplifierIns.renderLater();
+        }
+
+        function onerror(e) {
+            alert('图片加载失败！');
+        }
+
+        var navg1 = pathSimplifierIns.createPathNavigator(0, {
+//          loop: true,
+            speed: 800000,
+            pathNavigatorStyle: {
+                width: 24,
+                height: 24,
+               
+                //经过路径的样式
+                pathLinePassedStyle: {
+                    lineWidth: 6,
+                    strokeStyle: 'black',
+                    dirArrowStyle: {
+                        stepSpace: 15,
+                        strokeStyle: 'red'
+                    }
+                }
+            }
+        });
+
+        navg1.start();
+
+    });
+    </script>
+
+
+</body></html>
